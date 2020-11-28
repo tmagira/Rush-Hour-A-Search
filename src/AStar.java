@@ -30,3 +30,4 @@ public class AStar {
 }
 //TEST PUSH
 //HAI INI AFI
+//HAI INI WIRA
