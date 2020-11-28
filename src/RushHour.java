@@ -22,16 +22,8 @@ public class RushHour {
      */
     public static void main(String argv[]) throws FileNotFoundException, IOException {
 
-        String jamsTxt;	
-    
-    try {
-    	jamsTxt = argv[0];
-    } catch(ArrayIndexOutOfBoundsException e) {
-    	jamsTxt = "src/jams.txt";
-    }
-    
 	// read all the puzzles in file named by first argument
-	Puzzle[] puzzles = Puzzle.readPuzzlesFromFile(jamsTxt);
+	Puzzle[] puzzles = Puzzle.readPuzzlesFromFile(argv[0]);
 
 	String[] heuristic_names = null;
 	int num_puzzles = puzzles.length;
