@@ -12,7 +12,7 @@ import java.text.*;
  * the results.  You may wish to modify or replace this <tt>main</tt>
  * in any way that you wish.  (However, other classes that we have
  * provided should not be modified directly.)
- *///ame fedora was here
+ *///ame fedora was here 1
 public class RushHour {
 
     /**
