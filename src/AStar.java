@@ -22,6 +22,7 @@ public class AStar {
     public AStar(Puzzle puzzle, Heuristic heuristic) {
 
 	// your code here
+        //Afi was here
 
     }
 
