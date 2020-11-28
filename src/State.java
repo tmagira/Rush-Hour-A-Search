@@ -27,7 +27,7 @@ import java.util.*;
  * with regard to the redefinition of <tt>equals</tt>.
  */
 public class State {
-
+//TEST PLS BISA
     private Puzzle puzzle;
     private int varPos[];
 
