@@ -25,7 +25,17 @@ public class BlockingHeuristic implements Heuristic {
     public int getValue(State state) {
 
 	// your code here
-
+        //if pertama mengembalikan 0, jika state adalah state yang dituju
+        
+        //memanggil method isGoal pada class "state" untuk mengecek apakah 
+        //state sementara adalah state yang dituju
+        if(state.isGoal()){
+            //mengembalikan 0 karena heuristic dari state yang 
+            //dituju akan selalu bernilai 0
+            return 0;
+        }
+        
+        
     }
 
 }
